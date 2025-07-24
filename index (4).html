@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meet Dan from CeX</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #d6202a; /* CeX red */
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 20px;
+    }
+    .logo {
+      width: 200px;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    iframe {
+      border: none;
+      width: 80%;
+      height: 500px;
+      max-width: 800px;
+      border-radius: 12px;
+      margin-top: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="cex-logo.png" alt="CeX Logo" class="logo"/>
+    <h1>Meet Dan from CeX</h1>
+  </header>
+  <main>
+    <iframe src="https://studio.yepic.ai/video-agents/avatars/embed/687a7093ed0c3f1ac2b1d60c?key=eafaae7a006e7994314b234818627093&type=embed"
+      allow="microphone; camera; display-capture">
+    </iframe>
+  </main>
+  <footer>
+    Powered by Strange Thoughts
+  </footer>
+</body>
+</html>
